@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev:migrate": "npx prisma migrate dev && node index.ts",
+    "dev:migrate": "npx prisma migrate dev && ts-node index.ts",
     "dev": "nodemon index.ts",
     "start": "node index.ts"
   },
